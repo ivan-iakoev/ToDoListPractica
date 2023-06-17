@@ -8,7 +8,23 @@
 </head>
 <body>
     
+    <h3>To-do list</h3>
+    <input type="text" id="tarea-nombre"></input>
+    <button id="agregar-tarea" onclick="nuevaTarea()">Submit</button>
+    
+    <div id="tareas">
 
+    </div>
+    <!--Componentes -->  
+
+    <div style="display: none;" id="componentes">
+        <div class="tarea-fila">
+            <h4 class="tarea-nombre"></h4>
+            <div class="botones">
+                <button class="eliminar-tarea" >Eliminar</button>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
