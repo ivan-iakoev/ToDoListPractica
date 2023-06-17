@@ -1,13 +1,16 @@
+
+
 function nuevaTarea(){
 
 let fila = document.querySelector(".tarea-fila");
 let tareas = document.querySelector("#tareas");
 let tarea = tareas.appendChild(fila.cloneNode(true));
 
-let value = document.querySelector("#tarea-nombre").value;
- tarea.innerText = value
 
-
+nombre= document.querySelector("#tarea-nombre")
+    nombre = nombre.value
+    let elementoNombre = document.querySelector(`#${idTarea} span`)
+    elementoNombre.innerText=nombre
 
 
 

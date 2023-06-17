@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <title>To Do</title>
+</head>
+<body>
+    <h3>To Do</h3>
+    <input id="tarea-nombre" type="text" >
+    <button id="tarea-subir" onclick="crearTarea('test')">Submit</button>
+    <div id="tareas">
+
+    </div>
+
+    <!-- componentes -->
+
+    <div style="display:none;" id="componentes">
+        <div class="tarea-fila">
+            <span class="tarea-nombre"></span>
+            <div class="tarea-botones">
+                <button class="tarea-eliminar" fila = " ">Eliminar</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
